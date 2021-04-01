@@ -17,3 +17,8 @@ $cat - to read a file's content
 
 ###### How it looks:
 ![Example of a shell](http://cdncontribute.geeksforgeeks.org/wp-content/uploads/cli_example.png)
+
+
+###### Project for:
+Holberton school: ![holberton logo](https://blog.holbertonschool.com/wp-content/uploads/2020/04/unnamed-2.png) 
+and alx: ![alx logo](https://lh3.googleusercontent.com/vH1HTHhq7BIEuhIDuEc2Wrc2LgZigsJEWDR56ALuDFRZv9-jqCgHNHuBHIB-fLrrbwp7tJ8b7qeIJo0VtHUh=s0)
