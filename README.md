@@ -4,13 +4,16 @@
 
 * It is both an **interactive command language** and a **scripting language**, and is used by the operating system to control the execution of the system using shell scripts.
 
-Users type commands and they are executed within the session.
+Users type commands which get executed within the session.
 
 ###### Example:
 ~~~~
-$pwd _to print working directory_
-$cd .. _to change direcory_
-$echo _to print to standard output_
-$cat _to read a file's content_
+$pwd - *to print working directory*
+$cd .. - *to change direcory to previous directory*
+$echo - *to print to standard output*
+$cat - *to read a file's content*
 
 ~~~~
+
+###### How it looks:
+![Example of a shell](http://cdncontribute.geeksforgeeks.org/wp-content/uploads/cli_example.png)
