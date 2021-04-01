@@ -20,10 +20,6 @@ $cat - to read a file's content
 
 
 ###### Project for:
-Holberton school: ![holberton logo][1]
-
+Holberton school: ![holberton logo][1] and alx: ![alx logo][2]
 [1]: https://blog.holbertonschool.com/wp-content/uploads/2020/04/unnamed-2.png
-
-and alx: ![alx logo][2]
-
 [2]: https://lh3.googleusercontent.com/vH1HTHhq7BIEuhIDuEc2Wrc2LgZigsJEWDR56ALuDFRZv9-jqCgHNHuBHIB-fLrrbwp7tJ8b7qeIJo0VtHUh=s0
