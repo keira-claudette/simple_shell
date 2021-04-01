@@ -8,10 +8,10 @@ Users type commands which get executed within the session.
 
 ###### Example:
 ~~~~
-$pwd - *to print working directory*
-$cd .. - *to change direcory to previous directory*
-$echo - *to print to standard output*
-$cat - *to read a file's content*
+$pwd - **to print working directory**
+$cd .. - **to change direcory to previous directory**
+$echo - **to print to standard output**
+$cat - **to read a file's content**
 
 ~~~~
 
