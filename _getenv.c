@@ -4,9 +4,7 @@
  * _getenv - finds the environment variable requested by user
  * Return: value of the environment variable
  */
-/*
- * extern char **environ;
- */
+
 char *_getenv(char *name)
 {
 	int i, len;
