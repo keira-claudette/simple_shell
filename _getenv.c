@@ -2,6 +2,7 @@
 
 /**
  * _getenv - finds the environment variable requested by user
+ * @name: environment variable requested by user
  * Return: value of the environment variable
  */
 
