@@ -10,6 +10,6 @@ void sigint_handler(int signal)
 {
 	(void)signal;
 	printf("\n");
-	write(STDOUT_FILENO, "hsh$ ", 5);
+	write(STDOUT_FILENO, "$ ", 2);
 	fflush(stdout);
 }
