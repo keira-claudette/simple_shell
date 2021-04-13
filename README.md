@@ -16,7 +16,7 @@ $cat - to read a file's content
 ~~~~
 
 ###### How it looks:
-![Example of a shell](http://cdncontribute.geeksforgeeks.org/wp-content/uploads/cli_example.png)
+![Example of a shell](https://drive.google.com/file/d/1uT-D43OHTkm2KGS6acF132j5rz9y2n4_/view?usp=sharing)
 
 
 ###### Project for:
