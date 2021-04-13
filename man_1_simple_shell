@@ -5,7 +5,10 @@
 hsh - A simple UNIX command interpreter
 .PP
 .SH SYNOPSIS
+#include "shell.h"
+
 hsh [options] [command_string | file]
+
 .SH COPYRIGHT
 hsh is Copyright (C) 2021 by Keira Tuva Foundation, Org.
 .SH DESCRIPTION
@@ -18,12 +21,12 @@ hsh will work the same way as sh found in(/bin/sh)
 
 .SH OPTIONS
 .PP
-To be determined as we progress
+All linux commands work on our shell.
 
 
 .SH EXIT STATUS
 .PP
-To be determined
+Typing exit will exit the shell.
 
 .SH BUGS
 To be determined
@@ -31,10 +34,10 @@ To be determined
 .SH AUTHORS
 .PP
 NAME:
-.B Claudette Mokeira 
+.B Claudette Mokeira
 .RS i
 EMAIL:
-.B mokeira@gmail.com
+.claudette.keira@gmail.com
 
 .PP
 NAME:
