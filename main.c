@@ -31,6 +31,7 @@ int main(void)
 		if (_strcmp(line, "env") == 0)
 		{
 			_printenv();
+			free(line);
 			continue;
 		}
 		args = splitline(line);
