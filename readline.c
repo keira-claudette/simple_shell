@@ -19,17 +19,8 @@ char *readline(void)
 		 * feof is not allowed we will probably need to find another way
 		 * to do this
 		 */
-		if (feof(stdin))
-		{
-			free(line);
-			exit(EXIT_SUCCESS);
-		}
-		else
-		{
-			free(line);
-			perror("readline");
-			return (0);
-		}
+		free(line);
+		return (NULL);
 	}
 	if (line[len - 1] == '\n')
 		line[len - 1] = '\0';
