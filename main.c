@@ -19,8 +19,7 @@ int main(void)
 		line = readline();
 		if (!line)
 		{
-			free(line);
-			continue;
+			return (0);
 		}
 		/* Exit command we will have to move it */
 		if (_strcmp(line, "exit") == 0)
