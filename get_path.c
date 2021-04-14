@@ -4,7 +4,7 @@
   * get_path - Gets the full path of a command given
   * @command: The command to find the full path for
   *
-  * Return The full path if succesful
+  * Return: The full path if succesful
   */
 
 char *get_path(char *command)
