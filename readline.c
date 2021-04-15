@@ -15,10 +15,6 @@ char *readline(void)
 	len = getline(&line, &bufsize, stdin);
 	if (len == -1)
 	{
-		/*
-		 * feof is not allowed we will probably need to find another way
-		 * to do this
-		 */
 		free(line);
 		return (NULL);
 	}
