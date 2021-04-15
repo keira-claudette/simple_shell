@@ -23,7 +23,7 @@ int execute(char **args)
 
 	if (my_pid == 0)
 	{
-		if (command[0] == '/')
+		if (command[0] == '/' || command[0] == '.')
 			command = args[0];
 		else
 			command = get_path(command);
