@@ -15,7 +15,11 @@ int main(void)
 	signal(SIGINT, sigint_handler);
 	while (status)
 	{
-		write(STDOUT_FILENO, "$ ", 2);
+		status = isatty(STDIN_FILENO);
+
+		if (status == 1)
+			write(STDOUT_FILENO, "$ ", 2);
+
 		line = readline();
 		if (!line)
 		{
